@@ -1,0 +1,11 @@
+<div id="gs-group-type-discussion-canpost-anon" 
+  class="gs-group-member-canpost-info">
+  <!--  =mpj17= Never shown in an email message. See the Unknown Email
+    -   notification in gs.group.member.canpost for more information. 
+    -->
+  <strong>You cannot post</strong> because you are
+  <strong 
+    tal:attributes="title string:Reason ${view/canPost/statusNum}">not 
+    logged in.</strong> Please <strong>login or join</strong> to post.
+</div><!--gs-group-type-discussion-canpost-anon-->
+

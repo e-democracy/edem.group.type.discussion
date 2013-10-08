@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser">
+
+  <!-- Overriding the "can not post" message -->
+  <browser:viewlet name="gs-group-type-discussion-canpost-anon" 
+    manager="gs.group.member.canpost.interfaces.ICanPostInfo" 
+    template="browser/templates/anon.pt" 
+    class="gs.group.type.discussion.canpostviewlets.Anonymous" 
+    permission="zope.Public" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemLayer" />
+</configure>
