@@ -8,5 +8,5 @@
     template="browser/templates/anon.pt" 
     class="gs.group.type.discussion.canpostviewlets.Anonymous" 
     permission="zope.Public" 
-    layer="gs.skin.ogn.edem.interfaces.IEDemLayer" />
+    layer="edem.skin.interfaces.IEDemLayer" />
 </configure>
